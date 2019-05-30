@@ -1,0 +1,35 @@
+<html>
+
+<head>
+<link rel="stylesheet" href="https://cdn.plyr.io/2.0.13/plyr.css">
+<link rel="stylesheet" href="https://cdn.plyr.io/2.0.13/demo.css">
+
+
+
+    <meta charset="utf-8">
+    <title>Page Visibility Test</title>
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+   
+    <script src="timeme.js"></script>
+    <script src="timeframe.js"></script>
+
+</head>
+
+<body onload="set_json()">
+   
+
+    <div>
+        <input type="button" class="choosevideo" value="variables" data-type="variables">
+        <input type="button" class="choosevideo" value="introduction to C" data-type="intro">
+        <input type="button" class="choosevideo" value="environment setup" data-type="setup">
+        <input type="button" class="choosevideo" value="input/output" data-type="input-output">
+    </div>
+    <div id="player" data-type="youtube" data-video-id="https://www.youtube.com/watch?v=rvc5mRATQ7c" autoplay></div>
+    <div id="alert-div"></div>
+    <script src="https://cdn.plyr.io/2.0.13/plyr.js"></script>
+<script src="https://cdn.plyr.io/2.0.13/demo.js"></script>
+</body>
+
+</html>
